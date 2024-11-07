@@ -1,0 +1,27 @@
+.hero {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgb(218, 227, 236, 0.1), rgb(218, 227, 236, 0.1)),
+    url("../../assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: aliceblue;
+}
+
+.hero-text h1 {
+  margin: 10px auto 20px;
+}
+
+.hero-text p {
+  margin: 10px auto 20px;
+}
