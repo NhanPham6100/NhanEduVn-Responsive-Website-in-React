@@ -33,3 +33,7 @@ a {
   border: 0;
   outline: 0;
 }
+.btn.dark-btn {
+  background-color: mediumturquoise;
+  color: white;
+}
