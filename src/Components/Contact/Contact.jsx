@@ -5,6 +5,9 @@ import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
@@ -83,7 +86,7 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" className="btn dark-btn">
-            Submit now
+            Submit now <FontAwesomeIcon icon={faArrowRight} />
           </button>
         </form>
 

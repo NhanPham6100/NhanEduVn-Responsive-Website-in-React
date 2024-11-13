@@ -1,11 +1,9 @@
 import React, { useRef } from "react";
 import "./Testimonials.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import user_1 from "../../assets/user-1.jpg";
-import user_2 from "../../assets/user-1.jpg";
-import user_3 from "../../assets/user-1.jpg";
-import user_4 from "../../assets/user-1.jpg";
+import user_2 from "../../assets/user-2.jpg";
+import user_3 from "../../assets/user-3.jpg";
+import user_4 from "../../assets/user-4.jpg";
 import next_icon from "../../assets/next-icon.png";
 import back_icon from "../../assets/back-icon.png";
 
@@ -85,8 +83,8 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_3} alt=""></img>
                 <div>
-                  <h3>Nhan Pham Thanh</h3>
-                  <span>Ha Noi, Viet Nam</span>
+                  <h3>Lan Anh Tran Thi</h3>
+                  <span>Tay Ninh, Viet Nam</span>
                 </div>
               </div>
               <p>
@@ -103,8 +101,8 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_4} alt=""></img>
                 <div>
-                  <h3>Nhan Pham Thanh</h3>
-                  <span>Ha Noi, Viet Nam</span>
+                  <h3>Manh Tuan Do</h3>
+                  <span>Da Nang, Viet Nam</span>
                 </div>
               </div>
               <p>

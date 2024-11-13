@@ -1,13 +1,21 @@
 import React from "react";
-import about from "../../assets/about.png";
-import about_img from "../../assets/program.png";
+import about from "../../assets/play.png";
+import about_img from "../../assets/course.jpg";
+
 import "./About.css";
-const About = () => {
+const About = ({ playState, setPlayState }) => {
   return (
     <div className="about">
       <div className="about-left">
         <img src={about_img} alt="" className="about-img"></img>
-        <img src={about} alt="" className="play-icon"></img>
+        <img
+          src={about}
+          alt=""
+          className="play-icon"
+          onClick={() => {
+            setPlayState(true);
+          }}
+        ></img>
       </div>
       <div className="about-right">
         <h3>ABOUT UNIVERSITY</h3>
