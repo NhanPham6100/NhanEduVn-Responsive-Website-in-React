@@ -20,8 +20,30 @@
 
 .hero-text h1 {
   margin: 10px auto 20px;
+  font-size: 50px;
 }
 
 .hero-text p {
   margin: 10px auto 20px;
+  font-size: large;
+}
+
+/* media query */
+@media (max-width: 850px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-text h1 {
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+    margin: 15px auto 30px;
+  }
 }
